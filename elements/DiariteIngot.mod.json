@@ -8,7 +8,7 @@
     "name": "Diarite Ingot",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DiariteMod"
     },
     "stackSize": 64,
     "enchantability": 0,

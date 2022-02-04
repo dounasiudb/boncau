@@ -31,6 +31,36 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "shit"
+    },
+    {
+      "name": "DiariteArmor",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DiariteMod",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarite_mod"
+    },
+    {
+      "name": "DiaritePcckaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarite_pcckaxe"
     }
   ],
   "variable_elements": [],
@@ -38,10 +68,16 @@
   "language_map": {
     "en_us": {
       "advancements.u_minded_diarite_lol.title": "U minded diarite lol",
+      "item.boncau2.diarite_armor_helmet": "Diarite Helmet",
       "item.boncau2.diarite_ingot": "Diarite Ingot",
+      "item.boncau2.diarite_armor_leggings": "Diarite KFCs",
       "advancements.u_minded_diarite_lol.descr": "You have mined diartie.!!!!!!!!!w23432536457u",
       "block.boncau2.shit": "Shit",
-      "block.boncau2.diarite_block": "Oh Sit"
+      "item.boncau2.diarite_armor_chestplate": "Diarite Chestplate",
+      "block.boncau2.diarite_block": "Oh Sit",
+      "itemGroup.tabdiarite_mod": "Diarite mod",
+      "item.boncau2.diarite_armor_boots": "Diarite McDonalds Chicken Nuggets",
+      "item.boncau2.diarite_pcckaxe": "Diarite Pcckaxe"
     }
   },
   "foldersRoot": {

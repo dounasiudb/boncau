@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Diarite mod",
+    "icon": {
+      "value": "CUSTOM:DiariteBlock"
+    },
+    "showSearch": false
+  }
+}

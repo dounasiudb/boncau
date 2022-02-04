@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.ai.attributes.Attributes;
@@ -13,6 +12,7 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.boncau.itemgroup.DiariteModItemGroup;
 import net.mcreator.boncau.Boncau2ModElements;
 
 import com.google.common.collect.Multimap;
@@ -34,7 +34,7 @@ public class DiariteIngotItem extends Boncau2ModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.EPIC));
+			super(new Item.Properties().group(DiariteModItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
 			setRegistryName("diarite_ingot");
 		}
 

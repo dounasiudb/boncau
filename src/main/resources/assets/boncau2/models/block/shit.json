@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "boncau2:blocks/shit",
+    "up": "boncau2:blocks/shit",
+    "north": "boncau2:blocks/shit",
+    "east": "boncau2:blocks/shit",
+    "south": "boncau2:blocks/shit",
+    "west": "boncau2:blocks/shit",
+    "particle": "boncau2:blocks/shit"
+  }
+}

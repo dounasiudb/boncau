@@ -15,13 +15,32 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diarite_ingot"
+    },
+    {
+      "name": "UMindedDiariteLol",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_minded_diarite_lol"
+    },
+    {
+      "name": "Shit",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shit"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.u_minded_diarite_lol.title": "U minded diarite lol",
       "item.boncau2.diarite_ingot": "Diarite Ingot",
+      "advancements.u_minded_diarite_lol.descr": "You have mined diartie.!!!!!!!!!w23432536457u",
+      "block.boncau2.shit": "Shit",
       "block.boncau2.diarite_block": "Oh Sit"
     }
   },

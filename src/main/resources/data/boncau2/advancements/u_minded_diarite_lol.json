@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "boncau2:diarite_block"
+    },
+    "title": {
+      "translate": "advancements.u_minded_diarite_lol.title"
+    },
+    "description": {
+      "translate": "advancements.u_minded_diarite_lol.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "u_minded_diarite_lol": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "boncau2:diarite_block",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/iron_tools"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "boncau2:blocks/netherit",
+    "up": "boncau2:blocks/kimcu",
+    "north": "boncau2:blocks/netherit",
+    "east": "boncau2:blocks/kimcu",
+    "south": "boncau2:blocks/netherit",
+    "west": "boncau2:blocks/kimcu",
+    "particle": "boncau2:blocks/netherit"
+  }
+}

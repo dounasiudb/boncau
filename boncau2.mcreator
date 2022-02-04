@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiariteBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarite_block"
+    },
+    {
+      "name": "DiariteIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarite_ingot"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.boncau2.diarite_ingot": "Diarite Ingot",
+      "block.boncau2.diarite_block": "Oh Sit"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "boncau2",
+    "modName": "boncau2",
+    "version": "1.0.0",
+    "author": "yohowitgo123, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.boncau",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

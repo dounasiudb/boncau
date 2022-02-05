@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "command",
+  "definition": {
+    "commandName": "yoheehay",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "YoohrhaqhCommandExecuted"
+    }
+  }
+}

@@ -125,6 +125,83 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zayy_ahh"
+    },
+    {
+      "name": "TheGioiCuaZayyAhhPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_gioi_cua_zayy_ahh_player_enters_dimension",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TheGioiCuaZayyAhh",
+      "type": "dimension",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_gioi_cua_zayy_ahh",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Yoheehay",
+      "type": "musicdisc",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoheehay"
+    },
+    {
+      "name": "YoohrhaqhCommandExecuted",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoohrhaqh_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yoohrhaqh",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoohrhaqh"
+    },
+    {
+      "name": "As",
+      "type": "fluid",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "as",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [],
@@ -141,19 +218,25 @@
   "language_map": {
     "en_us": {
       "item.boncau2.diarite_armor_helmet": "Diarite Helmet",
+      "fluid.boncau2.as": "ZayyAhhFluid",
+      "item.boncau2.as_bucket": "ZayAhh Bucket",
       "advancements.u_minded_diarite_lol.descr": "You have mined diartie.!!!!!!!!!w23432536457u",
+      "item.boncau2.the_gioi_cua_zayy_ahh": "Flint and Zayy Ahh",
+      "item.boncau2.yoheehay": "Yoheehay",
       "biome.boncau2.dia_rite_biome": "Diarite Biome",
       "subtitles.yoheehey": "",
       "advancements.u_minded_diarite_lol.title": "U minded diarite lol",
       "item.boncau2.diarite_ingot": "Diarite Ingot",
       "item.boncau2.diarite_armor_leggings": "Diarite KFCs",
       "item.boncau2.diariteaxe": "Diarite Axe",
+      "block.boncau2.as": "ZayyAhhFluid",
       "block.boncau2.zayy_ahh": "Zayy Ahh",
       "item.boncau2.diaritesword": "Diarite Sword",
       "block.boncau2.shit": "Shit",
       "item.boncau2.diarite_armor_chestplate": "Diarite Chestplate",
       "block.boncau2.diarite_block": "Diarite Block",
       "itemGroup.tabdiarite_mod": "Diarite mod",
+      "item.boncau2.yoheehay.desc": "Yoo Hee Zayy1!!",
       "item.boncau2.diarite_armor_boots": "Diarite McDonalds Chicken Nuggets",
       "item.boncau2.diarite_pcckaxe": "Diarite Pcckaxe"
     }

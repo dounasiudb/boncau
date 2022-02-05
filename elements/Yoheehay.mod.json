@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "zayahhignitr",
+    "name": "Yoheehay",
+    "description": "Yoo Hee Zayy1!!",
+    "creativeTab": {
+      "value": "CUSTOM:DiariteMod"
+    },
+    "music": {
+      "value": "CUSTOM:yoheehey"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

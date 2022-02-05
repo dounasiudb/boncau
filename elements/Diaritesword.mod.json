@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diaritesword",
+    "customModelName": "Normal",
+    "name": "Diarite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DiariteMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 9.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 1569,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

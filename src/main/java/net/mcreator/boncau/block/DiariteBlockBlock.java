@@ -36,6 +36,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.boncau.itemgroup.DiariteModItemGroup;
+import net.mcreator.boncau.item.DiariteIngotItem;
 import net.mcreator.boncau.Boncau2ModElements;
 
 import java.util.Random;
@@ -76,7 +77,7 @@ public class DiariteBlockBlock extends Boncau2ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(DiariteIngotItem.block));
 		}
 	}
 

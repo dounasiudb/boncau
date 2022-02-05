@@ -46,6 +46,7 @@ public class Boncau2ModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public Boncau2ModElements() {
+		sounds.put(new ResourceLocation("boncau2", "yoheehey"), new net.minecraft.util.SoundEvent(new ResourceLocation("boncau2", "yoheehey")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("boncau2").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

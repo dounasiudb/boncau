@@ -1,0 +1,27 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diarteaxe",
+    "customModelName": "Normal",
+    "name": "Diarite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DiariteMod"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 10,
+    "damageVsEntity": 10.69,
+    "usageCount": 1569,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "netherit",
-    "textureTop": "kimcu",
-    "textureLeft": "kimcu",
-    "textureFront": "netherit",
-    "textureRight": "kimcu",
-    "textureBack": "netherit",
+    "texture": "zayahhhhhhead",
+    "textureTop": "zayahhhhhhead",
+    "textureLeft": "zayahhhhhhead",
+    "textureFront": "zayahhhhhhead",
+    "textureRight": "zayahhhhhhead",
+    "textureBack": "zayahhhhhhead",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,18 +32,18 @@
         "subtract": false
       }
     ],
-    "name": "Diarite Block",
+    "name": "Zayy Ahh",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 1200.0,
+    "hardness": 69.0,
+    "resistance": 500.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:DiariteMod"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:DiariteIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -67,6 +67,10 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -13421824,
+      "falpha": 0.0
+    },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -75,28 +79,28 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:yoheehey"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:yoheehey"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:yoheehey"
     },
     "hitSound": {
-      "value": ""
+      "value": "CUSTOM:yoheehey"
     },
     "fallSound": {
-      "value": ""
+      "value": "CUSTOM:yoheehey"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,9 +125,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -132,7 +134,7 @@
     ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 6,
+    "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
 }

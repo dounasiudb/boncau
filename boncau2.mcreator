@@ -61,20 +61,98 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diarite_pcckaxe"
+    },
+    {
+      "name": "Diariteblockrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diariteblockrecipe"
+    },
+    {
+      "name": "DiariteIngotSmelt",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarite_ingot_smelt"
+    },
+    {
+      "name": "Diaritesword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diaritesword"
+    },
+    {
+      "name": "Diariteswordrecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diariteswordrecipe"
+    },
+    {
+      "name": "Diariteaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diariteaxe"
+    },
+    {
+      "name": "Diariteaxerecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diariteaxerecipe"
+    },
+    {
+      "name": "DiaRiteBiome",
+      "type": "biome",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dia_rite_biome"
+    },
+    {
+      "name": "ZayyAhh",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zayy_ahh"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "yoheehey",
+      "files": [
+        "1196246044823097572"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "advancements.u_minded_diarite_lol.title": "U minded diarite lol",
       "item.boncau2.diarite_armor_helmet": "Diarite Helmet",
+      "advancements.u_minded_diarite_lol.descr": "You have mined diartie.!!!!!!!!!w23432536457u",
+      "biome.boncau2.dia_rite_biome": "Diarite Biome",
+      "subtitles.yoheehey": "",
+      "advancements.u_minded_diarite_lol.title": "U minded diarite lol",
       "item.boncau2.diarite_ingot": "Diarite Ingot",
       "item.boncau2.diarite_armor_leggings": "Diarite KFCs",
-      "advancements.u_minded_diarite_lol.descr": "You have mined diartie.!!!!!!!!!w23432536457u",
+      "item.boncau2.diariteaxe": "Diarite Axe",
+      "block.boncau2.zayy_ahh": "Zayy Ahh",
+      "item.boncau2.diaritesword": "Diarite Sword",
       "block.boncau2.shit": "Shit",
       "item.boncau2.diarite_armor_chestplate": "Diarite Chestplate",
-      "block.boncau2.diarite_block": "Oh Sit",
+      "block.boncau2.diarite_block": "Diarite Block",
       "itemGroup.tabdiarite_mod": "Diarite mod",
       "item.boncau2.diarite_armor_boots": "Diarite McDonalds Chicken Nuggets",
       "item.boncau2.diarite_pcckaxe": "Diarite Pcckaxe"

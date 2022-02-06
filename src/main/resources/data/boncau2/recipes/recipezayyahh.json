@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "1": {
+      "item": "boncau2:shit"
+    }
+  },
+  "result": {
+    "item": "boncau2:the_gioi_cua_zayy_ahh",
+    "count": 1
+  }
+}

@@ -5,6 +5,7 @@
   "item.boncau2.diarite_ingot": "Diarite Ingot",
   "block.boncau2.as": "ZayyAhhFluid",
   "block.boncau2.zayy_ahh": "Zayy Ahh",
+  "item.minecraft.potion.effect.zayy_ahh_potion": "Zayy Ahh potion",
   "block.boncau2.shit": "Shit",
   "item.boncau2.diarite_armor_chestplate": "Diarite Chestplate",
   "item.boncau2.yoheehay.desc": "Yoo Hee Zayy1!!",
@@ -17,10 +18,14 @@
   "advancements.u_minded_diarite_lol.title": "U minded diarite lol",
   "entity.boncau2.zayy_ahh_mob": "Con Vat Zayy Ahh",
   "item.boncau2.diariteaxe": "Diarite Axe",
+  "item.boncau2.zayy_ahh_do_an": "Zayy Ahh\u0027s organ",
+  "item.minecraft.splash_potion.effect.zayy_ahh_potion": "Zayy Ahh splash potion",
   "item.boncau2.diaritesword": "Diarite Sword",
   "block.boncau2.diarite_block": "Diarite Block",
+  "item.minecraft.tipped_arrow.effect.zayy_ahh_potion": "Zayy Ahh Arrow Potion",
   "itemGroup.tabdiarite_mod": "Diarite mod",
   "item.boncau2.diarite_armor_boots": "Diarite McDonalds Chicken Nuggets",
   "item.boncau2.zayy_ahh_mob_spawn_egg": "Con Vat Zayy Ahh Spawn Egg",
-  "item.boncau2.diarite_pcckaxe": "Diarite Pcckaxe"
+  "item.boncau2.diarite_pcckaxe": "Diarite Pcckaxe",
+  "item.minecraft.lingering_potion.effect.zayy_ahh_potion": "Zayy Ahh lingering potion"
 }

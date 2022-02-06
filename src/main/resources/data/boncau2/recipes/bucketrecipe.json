@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "boncau2:zayy_ahh"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "boncau2:as",
+    "count": 1
+  }
+}

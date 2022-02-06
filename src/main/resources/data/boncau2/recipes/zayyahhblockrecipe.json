@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "boncau2:shit"
+    },
+    "1": {
+      "item": "boncau2:shit"
+    },
+    "2": {
+      "item": "boncau2:shit"
+    },
+    "3": {
+      "item": "boncau2:diarite_block"
+    },
+    "4": {
+      "item": "boncau2:shit"
+    },
+    "5": {
+      "item": "boncau2:diarite_block"
+    }
+  },
+  "result": {
+    "item": "boncau2:zayy_ahh",
+    "count": 1
+  }
+}

@@ -53,9 +53,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
-import net.mcreator.boncau.item.TheGioiCuaZayyAhhItem;
+import net.mcreator.boncau.item.ZayyahhtheendItem;
+import net.mcreator.boncau.block.ZayyahhtheendblockBlock;
 import net.mcreator.boncau.block.ZayyAhhBlock;
-import net.mcreator.boncau.block.ShitBlock;
 import net.mcreator.boncau.Boncau2ModElements;
 
 import javax.annotation.Nullable;
@@ -74,23 +74,27 @@ import com.google.common.collect.Sets;
 import com.google.common.collect.ImmutableSet;
 
 @Boncau2ModElements.ModElement.Tag
-public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
-	@ObjectHolder("boncau2:the_gioi_cua_zayy_ahh_portal")
+public class ZayyahhtheendDimension extends Boncau2ModElements.ModElement {
+	@ObjectHolder("boncau2:zayyahhtheend_portal")
 	public static final CustomPortalBlock portal = null;
 
-	public TheGioiCuaZayyAhhDimension(Boncau2ModElements instance) {
-		super(instance, 19);
+	public ZayyahhtheendDimension(Boncau2ModElements instance) {
+		super(instance, 32);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		Set<Block> replaceableBlocks = new HashSet<>();
-		replaceableBlocks.add(ShitBlock.block);
+		replaceableBlocks.add(ZayyAhhBlock.block);
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("boncau2:dia_rite_biome")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("boncau2:dia_rite_biome")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_end")).getGenerationSettings().getSurfaceBuilder().get()
+				.getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_end")).getGenerationSettings().getSurfaceBuilder().get()
+				.getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
@@ -111,7 +115,7 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 		DimensionRenderInfo customEffect = new DimensionRenderInfo(Float.NaN, true, DimensionRenderInfo.FogType.NONE, false, false) {
 			@Override
 			public Vector3d func_230494_a_(Vector3d color, float sunHeight) {
-				return new Vector3d(1, 1, 1);
+				return color;
 			}
 
 			@Override
@@ -123,7 +127,7 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 			try {
 				Object2ObjectMap<ResourceLocation, DimensionRenderInfo> effectsRegistry = (Object2ObjectMap<ResourceLocation, DimensionRenderInfo>) ObfuscationReflectionHelper
 						.getPrivateValue(DimensionRenderInfo.class, null, "field_239208_a_");
-				effectsRegistry.put(new ResourceLocation("boncau2:the_gioi_cua_zayy_ahh"), customEffect);
+				effectsRegistry.put(new ResourceLocation("boncau2:zayyahhtheend"), customEffect);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -132,14 +136,13 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 	}
 
 	private static PointOfInterestType poi = null;
-	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("the_gioi_cua_zayy_ahh_portal", Vector3i::compareTo, 300);
+	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("zayyahhtheend_portal", Vector3i::compareTo, 300);
 
 	public static class POIRegisterHandler {
 		@SubscribeEvent
 		public void registerPointOfInterest(RegistryEvent.Register<PointOfInterestType> event) {
-			poi = new PointOfInterestType("the_gioi_cua_zayy_ahh_portal",
-					Sets.newHashSet(ImmutableSet.copyOf(portal.getStateContainer().getValidStates())), 0, 1)
-							.setRegistryName("the_gioi_cua_zayy_ahh_portal");
+			poi = new PointOfInterestType("zayyahhtheend_portal", Sets.newHashSet(ImmutableSet.copyOf(portal.getStateContainer().getValidStates())),
+					0, 1).setRegistryName("zayyahhtheend_portal");
 			ForgeRegistries.POI_TYPES.register(poi);
 		}
 	}
@@ -147,14 +150,14 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomPortalBlock());
-		elements.items.add(() -> new TheGioiCuaZayyAhhItem().setRegistryName("the_gioi_cua_zayy_ahh"));
+		elements.items.add(() -> new ZayyahhtheendItem().setRegistryName("zayyahhtheend"));
 	}
 
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
 					.setLightLevel(s -> 0).noDrops());
-			setRegistryName("the_gioi_cua_zayy_ahh_portal");
+			setRegistryName("zayyahhtheend_portal");
 		}
 
 		@Override
@@ -203,7 +206,7 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 					pz = pos.getZ() + 0.5 + 0.25 * j;
 					vz = random.nextFloat() * 2 * j;
 				}
-				world.addParticle(ParticleTypes.EXPLOSION, px, py, pz, vx, vy, vz);
+				world.addParticle(ParticleTypes.CRIT, px, py, pz, vx, vy, vz);
 			}
 			if (random.nextInt(110) == 0)
 				world.playSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
@@ -217,10 +220,9 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 				if (entity.func_242280_ah()) {
 					entity.func_242279_ag();
 				} else if (entity.world.getDimensionKey() != RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
-						new ResourceLocation("boncau2:the_gioi_cua_zayy_ahh"))) {
+						new ResourceLocation("boncau2:zayyahhtheend"))) {
 					entity.func_242279_ag();
-					teleportToDimension(entity, pos,
-							RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("boncau2:the_gioi_cua_zayy_ahh")));
+					teleportToDimension(entity, pos, RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("boncau2:zayyahhtheend")));
 				} else {
 					entity.func_242279_ag();
 					teleportToDimension(entity, pos, World.OVERWORLD);
@@ -236,7 +238,7 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 
 	public static class CustomPortalSize {
 		private static final AbstractBlock.IPositionPredicate POSITION_PREDICATE = (state, blockReader, pos) -> {
-			return state.getBlock() == ZayyAhhBlock.block;
+			return state.getBlock() == ZayyahhtheendblockBlock.block;
 		};
 		private final IWorld world;
 		private final Direction.Axis axis;
@@ -508,7 +510,7 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 				for (int l1 = -1; l1 < 2; ++l1) {
 					for (int k2 = 0; k2 < 2; ++k2) {
 						for (int i3 = -1; i3 < 3; ++i3) {
-							BlockState blockstate1 = i3 < 0 ? ZayyAhhBlock.block.getDefaultState() : Blocks.AIR.getDefaultState();
+							BlockState blockstate1 = i3 < 0 ? ZayyahhtheendblockBlock.block.getDefaultState() : Blocks.AIR.getDefaultState();
 							blockpos$mutable.setAndOffset(blockpos, k2 * direction.getXOffset() + l1 * direction1.getXOffset(), i3,
 									k2 * direction.getZOffset() + l1 * direction1.getZOffset());
 							this.world.setBlockState(blockpos$mutable, blockstate1);
@@ -520,7 +522,7 @@ public class TheGioiCuaZayyAhhDimension extends Boncau2ModElements.ModElement {
 				for (int i2 = -1; i2 < 4; ++i2) {
 					if (k1 == -1 || k1 == 2 || i2 == -1 || i2 == 3) {
 						blockpos$mutable.setAndOffset(blockpos, k1 * direction.getXOffset(), i2, k1 * direction.getZOffset());
-						this.world.setBlockState(blockpos$mutable, ZayyAhhBlock.block.getDefaultState(), 3);
+						this.world.setBlockState(blockpos$mutable, ZayyahhtheendblockBlock.block.getDefaultState(), 3);
 					}
 				}
 			}

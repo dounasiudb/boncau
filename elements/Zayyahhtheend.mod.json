@@ -5,20 +5,19 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:DiaRiteBiome"
+      },
+      {
+        "value": "the_end"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Shit"
-    },
-    "fluidBlock": {
       "value": "CUSTOM:ZayyAhh"
     },
-    "airColor": {
-      "value": -1,
-      "falpha": 0.0
+    "fluidBlock": {
+      "value": "CUSTOM:As"
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": false,
@@ -26,21 +25,21 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": "CUSTOM:ZayyAhh"
+      "value": "CUSTOM:Zayyahhtheendblock"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CRIT"
     },
     "portalLuminance": 0,
     "portalSound": {
       "value": "CUSTOM:yoheehey"
     },
-    "igniterName": "Flint and Zayy Ahh",
+    "igniterName": "ZayyAhh The End Ignitor",
     "igniterTab": {
       "value": "CUSTOM:DiariteMod"
     },
     "texture": "zayahhhead",
-    "portalTexture": "zayahhignitr",
+    "portalTexture": "zayyahhportal",
     "enablePortal": true
   }
 }

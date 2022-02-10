@@ -7,5 +7,15 @@
         "stream": false
       }
     ]
+  },
+  "yooheehayslowed": {
+    "category": "neutral",
+    "subtitle": "subtitles.yooheehayslowed",
+    "sounds": [
+      {
+        "name": "boncau2:yooooooooooooooooooooooooooooooo",
+        "stream": false
+      }
+    ]
   }
 }

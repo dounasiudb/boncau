@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "boncau2:block/zayyahhtheend_portal_ew"
+    },
+    "axis=x": {
+      "model": "boncau2:block/zayyahhtheend_portal_ns"
+    }
+  }
+}

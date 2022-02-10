@@ -268,32 +268,31 @@
       "registry_name": "zayy_ahh_do_an"
     },
     {
-      "name": "PowerOfDiarite",
-      "type": "enchantment",
-      "sortid": 30,
+      "name": "Zayyahhtheendblock",
+      "type": "block",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "power_of_diarite"
+      "registry_name": "zayyahhtheendblock"
     },
     {
-      "name": "DiariteswordLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 31,
+      "name": "Zayyahhtheend",
+      "type": "dimension",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "diaritesword_living_entity_is_hit_with_tool",
+      "registry_name": "zayyahhtheend",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
+        "ep": true
       }
+    },
+    {
+      "name": "TheBossZayyAhh",
+      "type": "livingentity",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_boss_zayy_ahh"
     }
   ],
   "variable_elements": [],
@@ -305,13 +304,22 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "yooheehayslowed",
+      "files": [
+        "yooooooooooooooooooooooooooooooo"
+      ],
+      "category": "neutral",
+      "subtitle": "Yoooooo"
     }
   ],
   "language_map": {
     "en_us": {
       "item.boncau2.diarite_armor_helmet": "Diarite Helmet",
-      "enchantment.boncau2.power_of_diarite": "Power Of Diarite",
+      "item.boncau2.the_boss_zayy_ahh_spawn_egg": "thebosszayyahh Spawn Egg",
       "item.boncau2.yoheehay": "Yoheehay",
+      "item.boncau2.zayyahhtheend": "ZayyAhh The End Ignitor",
       "item.boncau2.diarite_ingot": "Diarite Ingot",
       "item.boncau2.diarite_armor_leggings": "Diarite KFCs",
       "block.boncau2.as": "ZayyAhhFluid",
@@ -319,10 +327,12 @@
       "item.minecraft.potion.effect.zayy_ahh_potion": "Zayy Ahh potion",
       "block.boncau2.shit": "Shit",
       "item.boncau2.diarite_armor_chestplate": "Diarite Chestplate",
+      "subtitles.yooheehayslowed": "Yoooooo",
       "item.boncau2.yoheehay.desc": "Yoo Hee Zayy1!!",
       "fluid.boncau2.as": "ZayyAhhFluid",
       "item.boncau2.as_bucket": "ZayAhh Bucket",
       "advancements.u_minded_diarite_lol.descr": "You have mined diartie.!!!!!!!!!w23432536457u",
+      "block.boncau2.zayyahhtheendblock": "The end cua zayy ahh",
       "item.boncau2.the_gioi_cua_zayy_ahh": "Flint and Zayy Ahh",
       "biome.boncau2.dia_rite_biome": "Diarite Biome",
       "subtitles.yoheehey": "",
@@ -332,6 +342,7 @@
       "item.boncau2.zayy_ahh_do_an": "Zayy Ahh\u0027s organ",
       "item.minecraft.splash_potion.effect.zayy_ahh_potion": "Zayy Ahh splash potion",
       "item.boncau2.diaritesword": "Diarite Sword",
+      "entity.boncau2.the_boss_zayy_ahh": "thebosszayyahh",
       "block.boncau2.diarite_block": "Diarite Block",
       "item.minecraft.tipped_arrow.effect.zayy_ahh_potion": "Zayy Ahh Arrow Potion",
       "itemGroup.tabdiarite_mod": "Diarite mod",

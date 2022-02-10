@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "boncau2:blocks/zayyahhportal",
+    "up": "boncau2:blocks/zayyahhportal",
+    "north": "boncau2:blocks/zayyahhportal",
+    "east": "boncau2:blocks/zayyahhportal",
+    "south": "boncau2:blocks/zayyahhportal",
+    "west": "boncau2:blocks/zayyahhportal",
+    "particle": "boncau2:blocks/zayyahhportal"
+  }
+}
